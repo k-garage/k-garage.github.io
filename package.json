@@ -8,9 +8,9 @@
     "gatsby"
   ],
   "scripts": {
-    "develop": "python3 compile_notebooks.py && gatsby develop --host 0.0.0.0 --port 8002",
-    "start": "python3 compile_notebooks.py && gatsby develop",
-    "build": "python3 compile_notebooks.py && gatsby build",
+    "develop": "gatsby develop --host 0.0.0.0 --port 8002",
+    "start": "gatsby develop",
+    "build": "gatsby build",
     "serve": "gatsby serve  --host 0.0.0.0 --port 8002",
     "clean": "gatsby clean",
     "deploy": "gatsby build"
