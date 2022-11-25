@@ -1,0 +1,15 @@
+node_modules
+.cache
+public/
+.venv/
+.env
+
+.DS_Store
+node_modules
+
+*.ipynb
+*.mdx
+*.md
+
+compiled_htmls
+meta
